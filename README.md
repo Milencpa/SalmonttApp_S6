@@ -1,4 +1,4 @@
-🧠 Actividad Formativa Semana 4 – Desarrollo Orientado a Objetos I
+🧠 Actividad Formativa Semana 6 – Desarrollo Orientado a Objetos I
 
 
 👤 Autor del proyecto
@@ -9,17 +9,15 @@ Sede: Campus Online
 
 
 📘 Descripción general del sistema
-Este proyecto corresponde a la Actividad Formativa de la Semana 4 de la asignatura Desarrollo Orientado a Objetos I. 
-Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es establecer una base estructurada para la gestión de información de Centros de Cultivo.
-
-El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
+Esta actividad tiene como objetivo aplicar los principios de Programación Orientada a Objetos mediante la creación de jerarquías de clases con herencia simple. Se requiere definir una clase base que integre atributos y métodos comunes, y luego desarrollar subclases que extiendan su funcionalidad. Además, se espera utilizar conceptos clave como herencia, sobrescritura de métodos y composición entre clases cuando corresponda.
+El trabajo se desarrolla en el contexto del proyecto de digitalización de la empresa salmonera Salmontt, continuando el modelado y la estructura creados en etapas anteriores.
 
 
 🧱 Estructura general del proyecto
 📁 src/
 ├── ui/         # Clase principal con el método main
-├── model/      # Clases de dominio (CentroCultivo)
-└── data/       # Clases para la carga y lectura de archivos .txt (GestorDatos) 
+├── model/      # Clases de dominio (UnidadOperativa, CentroCultivo, PlantaProceso)
+└── data/       # Clases para la carga y lectura de archivos .txt (GestorUnidades) 
 
 
 ⚙️ Instrucciones para clonar y ejecutar el proyecto
@@ -31,4 +29,4 @@ git clone https://github.com/Milencpa/SalmonttApp_S4.git
 - Sigue las instrucciones en consola o en la interfaz gráfica (si corresponde).
 
 
-Repositorio GitHub: [https://github.com/Milencpa/SalmonttApp_S4] Fecha de entrega: [17/11/2025]
+Repositorio GitHub: [https://github.com/Milencpa/SalmonttApp_S4] Fecha de entrega: [01/12/2025]
