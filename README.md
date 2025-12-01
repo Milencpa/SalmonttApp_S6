@@ -4,10 +4,10 @@
 
 ## 👤 Autor del proyecto
 
-**Nombre completo:** Milen Peralta Aguirre
-**Sección:** 002A
-**Carrera:** Analista Programador Computacional
-**Sede:** Campus Online
+**Nombre completo:** Milen Peralta Aguirre  
+**Sección:** 002A  
+**Carrera:** Analista Programador Computacional  
+**Sede:** Campus Online  
 
 
 ## 📘 Descripción general del sistema
@@ -18,12 +18,12 @@ El trabajo se desarrolla en el contexto del proyecto de digitalización de la em
 
 
 ## 🧱 Estructura general del proyecto
-
+```
 📁 src/
-├── ui/         # Clase principal con el método main
-├── model/      # Clases de dominio (UnidadOperativa, CentroCultivo, PlantaProceso)
-└── data/       # Clases para la gestión básica de datos (GestorUnidades) 
-
+├── ui/         # Clase principal con el método main  
+├── model/      # Clases de dominio (UnidadOperativa, CentroCultivo, PlantaProceso)  
+└── data/       # Clases para la gestión básica de datos (GestorUnidades)   
+```
 
 ## ⚙️ Instrucciones para clonar y ejecutar el proyecto
 
