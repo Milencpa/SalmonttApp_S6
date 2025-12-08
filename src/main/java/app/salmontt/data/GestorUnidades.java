@@ -1,25 +1,32 @@
 package app.salmontt.data;
 
-
+import java.util.ArrayList;
+import java.util.List;
 import app.salmontt.model.PlantaProceso;
 import app.salmontt.model.UnidadOperativa;
 import app.salmontt.model.CentroCultivo;
 
 public class GestorUnidades {
 
-    public static UnidadOperativa [] getUnidades() {
-        return crearUnidades();
+  private List <UnidadOperativa> unidades;
+    public GestorUnidades() {
+        unidades = new ArrayList<>();
+        unidades.add(new CentroCultivo("Centro Cultivo A", "Comuna 1", 5000));
+        unidades.add(new CentroCultivo("Centro Cultivo B", "Comuna 2", 8000));
+
+        unidades.add(new PlantaProceso("Planta Proceso C", "Comuna 3", "Alta"));
+        unidades.add(new PlantaProceso("Planta Proceso D", "Comuna 4", "Media"));
+        unidades.add(new PlantaProceso("Planta Proceso E", "Comuna 5", "Baja"));
     }
 
-    public static UnidadOperativa[] crearUnidades() {
-        UnidadOperativa cc1 = new CentroCultivo("Centro A", "Comuna A", 5000);
-        UnidadOperativa cc2 = new CentroCultivo("Centro B", "Comuna B", 800);
-
-        UnidadOperativa pp1 = new PlantaProceso("Planta X", "Comuna X", "2000 kg/día");
-        UnidadOperativa pp2 = new PlantaProceso("Planta Y", "Comuna Y", "1500 kg/día");
-
-        return new UnidadOperativa[]{cc1, cc2, pp1, pp2};
+    public List<UnidadOperativa> getUnidades() {
+        return unidades;
     }
 
-
+    public void mostrarUnidades(){
+        for (UnidadOperativa unidad : unidades) {
+            unidad.mostrarInformacion();
+            System.out.println("---------------------------");
+        }
+}
 }

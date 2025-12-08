@@ -17,11 +17,8 @@ public class PlantaProceso extends UnidadOperativa{
     }
 
     @Override
-    public String toString() {
-        return "PlantaProceso{" +
-                "nombre='" + getNombre() + '\'' +
-                ", comuna='" + getComuna() + '\'' +
-                "capacidadProceso='" + capacidadProceso + '\'' +
-                '}';
+    public void mostrarInformacion() {
+        super.mostrarInformacion();
+        System.out.println("Capacidad de Proceso: " + capacidadProceso);
     }
 }

@@ -25,11 +25,8 @@ public class UnidadOperativa {
         this.comuna = comuna;
     }
 
-    @Override
-    public String toString() {
-        return "UnidadOperativa{" +
-                "nombre='" + nombre + '\'' +
-                ", comuna='" + comuna + '\'' +
-                '}';
+    public void mostrarInformacion() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Comuna: " + comuna);
     }
 }

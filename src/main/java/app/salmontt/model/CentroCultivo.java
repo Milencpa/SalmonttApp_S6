@@ -20,11 +20,8 @@ public class CentroCultivo extends UnidadOperativa{
     }
 
     @Override
-    public String toString() {
-        return "CentroCultivo{" +
-                "nombre='" + getNombre() + '\'' +
-                ", comuna='" + getComuna() + '\'' +
-                "produccionAnualKg=" + produccionAnualKg +
-                '}';
+    public void mostrarInformacion() {
+        super.mostrarInformacion();
+        System.out.println("Producción Anual (kg): " + produccionAnualKg);
     }
 }
