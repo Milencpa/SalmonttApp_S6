@@ -8,9 +8,12 @@ import app.salmontt.model.CentroCultivo;
 
 public class GestorUnidades {
 
+    // Lista para almacenar las unidades operativas (Colección Polimórfica)
   private List <UnidadOperativa> unidades;
     public GestorUnidades() {
         unidades = new ArrayList<>();
+
+        // Carga manual de objetos
         unidades.add(new CentroCultivo("Centro Cultivo A", "Comuna 1", 5000));
         unidades.add(new CentroCultivo("Centro Cultivo B", "Comuna 2", 8000));
 
@@ -19,6 +22,7 @@ public class GestorUnidades {
         unidades.add(new PlantaProceso("Planta Proceso E", "Comuna 5", "Baja"));
     }
 
+    // Método para obtener la lista de unidades operativas
     public List<UnidadOperativa> getUnidades() {
         return unidades;
     }
@@ -28,5 +32,6 @@ public class GestorUnidades {
             unidad.mostrarInformacion();
             System.out.println("---------------------------");
         }
+
 }
 }

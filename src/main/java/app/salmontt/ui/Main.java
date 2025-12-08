@@ -1,7 +1,6 @@
 package app.salmontt.ui;
 
 import app.salmontt.data.GestorUnidades;
-import app.salmontt.model.CentroCultivo;
 import app.salmontt.model.UnidadOperativa;
 
 // Clase principal que ejecuta la aplicación
